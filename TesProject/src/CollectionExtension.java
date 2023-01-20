@@ -117,6 +117,9 @@ public class CollectionExtension {
 		Collections.sort(objList);
 		System.out.println("Sorted objList="+objList);
 		
+		Collections.reverse(objList);
+		System.out.println("Sorted objList="+objList);
+		
 		System.out.println("binarySearch="+Collections.binarySearch(objList, new UserName("SNM"))); //index location
 		
 		
