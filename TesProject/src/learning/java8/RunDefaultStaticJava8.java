@@ -1,6 +1,6 @@
 package learning.java8;
 
-public class TestRun implements InterfaceDefaultMethodA, InterfaceDefaultMethodB {
+public class RunDefaultStaticJava8 implements InterfaceDefaultMethodA, InterfaceDefaultMethodB {
 
 	@Override
 	public void testMethod() {
@@ -23,7 +23,7 @@ public class TestRun implements InterfaceDefaultMethodA, InterfaceDefaultMethodB
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 	
-		TestRun test=new TestRun();
+		RunDefaultStaticJava8 test=new RunDefaultStaticJava8();
 	System.out.println("***********************default Method in Interface*************************************");
 
 		test.testMethod();
@@ -34,7 +34,7 @@ public class TestRun implements InterfaceDefaultMethodA, InterfaceDefaultMethodB
 	
 	//Override is not allowed for static but same name method can be created. 
 	System.out.println(test.valueOfPi());
-	System.out.println(TestRun.valueOfPi());
+	System.out.println(RunDefaultStaticJava8.valueOfPi());
 		
 		
 		
