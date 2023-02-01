@@ -71,6 +71,9 @@ public class SortUsingLambda {
 			
 		}
 		
+		
+		list.forEach(temp->System.out.println("Print List using forEach "+temp));
+		
 //Lambda custom sort
 		Collections.sort(list, (Data o1, Data o2)->{	
 		if(o1.getName().length()> o2.getName().length()) {
