@@ -69,7 +69,7 @@ public class JavaCollections {
 				Collections.sort(listNames);		
 				System.out.println("ollection sort"+listNames);
 		
-//compareTo 
+//compareTo  
 		String x="eaae";
 		String y="d";
 		System.out.println(x.compareTo(y));//-3 //Works for Integer not variable int
